@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            tr:nth-child(even) {
+                background-color: #D6EEEE;
+            }
+
+        </style>
+        <title>Table </title>
+    </head>
+    <body>
+    <table style="width: 100%; border: 1px solid black; margin-left: auto; margin-right: auto; text-align: center;">
+    <h1>Student Information Table.</h1>
+    <tr>
+        <th text-align="center">Student ID</th>
+        <th text-align="center">Name</th>
+        <th text-align="center">Age</th>
+        <th text-align="center">Gender</th>
+        <th text-align="center">Marks</th>
+        <th text-align="center">City</th>
+     </tr>
+    <tr>
+        <td>1</td>
+        <td>Ali</td>
+        <td>17</td>
+        <td>Male</td>
+        <td>80</td>
+        <td>Islamabad</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Sara</td>
+        <td>15</td>
+        <td>Female</td>
+        <td>94</td>
+        <td>Lahore</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Zarra</td>
+        <td>19</td>
+        <td>Female</td>
+        <td>90</td>
+        <td>Rawalpindi</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Mubashir</td>
+        <td>19</td>
+        <td>Male</td>
+        <td>97</td>
+        <td>Rawalpindi</td>
+    </tr>
+    </table>
+    <button onclick="showStudentInfo()">Show Student Info</button>
+    <button onclick="showLabInfo()">Show Lab Info</button>
+    <button onclick="customAlert()">Show greetings</button>
+    </body>
+    <script>
+        function showStudentInfo() {
+        console.log("Displaying student information...");
+        window.alert("This webpage displays student records in an HTML table.");
+        }
+        function showLabInfo() {
+        console.log("Displaying lab information...");
+        window.alert("Lab 11 covers HTML, CSS, and a basic introduction to JavaScript.");
+        }
+	function customAlert() {
+        console.log("Displaying greeting...");
+        window.alert("Hi! Mahwash");
+        }
+    </script>
+</html>
